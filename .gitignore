@@ -5,7 +5,7 @@ node_modules
 
 
 # web
-web/config.js
+web/firebase/config.js
 
 # local env files
 .env.local
