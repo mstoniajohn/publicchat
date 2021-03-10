@@ -5,7 +5,7 @@ import 'firebase/database';
 import 'firebase/storage';
 
 const firebaseConfig = {
-	apiKey: 'AIzaSyC7DrrP16MBjD3hvU9on1qRshqYUj8FdO8',
+	apiKey: VUE_APP_FIREBASE_API_KEY,
 	authDomain: 'vue-udemy-cc1b7.firebaseapp.com',
 	databaseURL: 'https://vue-udemy-cc1b7-default-rtdb.firebaseio.com',
 	projectId: 'vue-udemy-cc1b7',
