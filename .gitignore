@@ -5,7 +5,7 @@ node_modules
 
 
 # web
-firebase/config.js
+web/config.js
 
 # Firebase Hosting
 .firebaserc
