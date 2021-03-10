@@ -6,6 +6,10 @@ node_modules
 
 # web
 src/firebase/*
+src/firebase/
+src/firebase/config.js
+
+
 
 
 # Firebase Hosting
