@@ -3,7 +3,6 @@ import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/storage';
-import '.';
 
 const firebaseConfig = {
 	apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
