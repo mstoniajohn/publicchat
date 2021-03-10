@@ -3,15 +3,16 @@ import 'firebase/firestore';
 import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/storage';
+import '.';
 
 const firebaseConfig = {
-	apiKey: VUE_APP_FIREBASE_API_KEY,
+	apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
 	authDomain: 'vue-udemy-cc1b7.firebaseapp.com',
 	databaseURL: 'https://vue-udemy-cc1b7-default-rtdb.firebaseio.com',
 	projectId: 'vue-udemy-cc1b7',
 	storageBucket: 'vue-udemy-cc1b7.appspot.com',
 	messagingSenderId: '14672674618',
-	appId: VUE_APP_FIREBASE_APP_ID,
+	appId: process.env.VUE_APP_FIREBASE_APP_ID,
 };
 // initilize appa
 firebase.initializeApp(firebaseConfig);
