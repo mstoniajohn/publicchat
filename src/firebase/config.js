@@ -11,7 +11,7 @@ const firebaseConfig = {
 	projectId: 'vue-udemy-cc1b7',
 	storageBucket: 'vue-udemy-cc1b7.appspot.com',
 	messagingSenderId: '14672674618',
-	appId: '1:14672674618:web:9e2c32c9cd2d4a9255da03',
+	appId: VUE_APP_FIREBASE_APP_ID,
 };
 // initilize appa
 firebase.initializeApp(firebaseConfig);
