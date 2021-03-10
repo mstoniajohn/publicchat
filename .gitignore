@@ -7,6 +7,10 @@ node_modules
 # web
 web/firebase/config.js
 
+# Firebase Hosting
+.firebaserc
+firebase-debug.log
+
 # local env files
 .env.local
 .env.*.local
