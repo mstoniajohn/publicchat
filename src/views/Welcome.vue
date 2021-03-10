@@ -14,6 +14,7 @@
 					Already have an account? <span @click="showLogin = true">Login</span>
 				</p>
 			</div>
+			<div>Created by <a href="toniaroganti.com">Tonia</a></div>
 		</div>
 	</main>
 </template>
