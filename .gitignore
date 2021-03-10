@@ -11,9 +11,6 @@ node_modules
 
 
 
-# Firebase Hosting
-.firebaserc
-firebase-debug.log
 
 # local env files
 .env.local
