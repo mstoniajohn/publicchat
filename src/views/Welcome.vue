@@ -15,7 +15,9 @@
 				</p>
 			</div>
 			<div>
-				Created by <a href="www.toniaroganti.com" target="_blank">Tonia</a>
+				<p>
+					Created by <a href="www.toniaroganti.com" target="_blank">Tonia</a>
+				</p>
 			</div>
 		</div>
 	</main>
