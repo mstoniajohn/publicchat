@@ -22,6 +22,7 @@
 						<div class="message-inner">
 							<div class="username">{{ message.username }}</div>
 							<div class="content">{{ message.content }}</div>
+							<div class="dummy"></div>
 						</div>
 					</div>
 				</section>
@@ -228,6 +229,7 @@ input[type='text'] {
 	appearance: none;
 	border: none;
 	outline: none;
+	font-size: 16px !important;
 	background: none;
 	display: block;
 	width: 100%;
