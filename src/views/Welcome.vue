@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="welcome">
-			<h2>Welcome</h2>
+			<h2>Welcome to Ultra Coders Chatroom</h2>
 			<div v-if="showLogin">
 				<h3>Login</h3>
 				<LoginForm />
@@ -17,7 +17,13 @@
 			<div>
 				<p>
 					Created by
-					<a @click="redirectProfile" href="" target="_blank">Tonia</a>
+					<a
+						class="port"
+						@click="redirectProfile"
+						href="https://toniaroganti.com/"
+						target="_blank"
+						>Tonia</a
+					>
 				</p>
 			</div>
 		</div>
