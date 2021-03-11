@@ -16,7 +16,8 @@
 			</div>
 			<div>
 				<p>
-					Created by <a href="www.toniaroganti.com" target="_blank">Tonia</a>
+					Created by
+					<a @click="redirectProfile" href="" target="_blank">Tonia</a>
 				</p>
 			</div>
 		</div>
@@ -28,12 +29,17 @@ import SignupForm from '../components/SignUpForm';
 import LoginForm from '../components/LoginForm.vue';
 
 import { ref } from 'vue';
+// import { useRouter } from 'vue-router';
 export default {
 	components: { SignupForm, LoginForm },
 	setup() {
+		// const router = useRouter();
+		const redirectProfile = () => {
+			window.location.href = 'https://toniaroganti.com/';
+		};
 		const showLogin = ref(true);
 
-		return { showLogin };
+		return { showLogin, redirectProfile };
 	},
 };
 </script>
