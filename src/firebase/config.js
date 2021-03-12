@@ -6,10 +6,10 @@ import 'firebase/storage';
 
 const firebaseConfig = {
 	apiKey: process.env.VUE_APP_API_KEY,
-	authDomain: 'vue-udemy-cc1b7.firebaseapp.com',
+	authDomain: process.VUE_APP_AUTH_DOMAIN,
 	databaseURL: process.env.VUE_APP_DATABASE_URL,
 	projectId: 'vue-udemy-cc1b7',
-	storageBucket: 'vue-udemy-cc1b7.appspot.com',
+	storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
 	messagingSenderId: '14672674618',
 	appId: process.env.VUE_APP_APP_ID,
 
